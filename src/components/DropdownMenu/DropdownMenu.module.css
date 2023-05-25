@@ -1,0 +1,11 @@
+.select {
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  justify-content: space-between;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.select p {
+  margin: 0;
+}

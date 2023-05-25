@@ -1,0 +1,14 @@
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: black;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  height: 250px;
+  width: 250px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}

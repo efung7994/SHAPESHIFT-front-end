@@ -5,16 +5,11 @@
 }
 
 body {
+  background-image: url(https://i.imgur.com/XO7TtWI.jpg);
   box-sizing: border-box;
-
   margin: 0;
   min-height: 100vh;
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  font-family: 'Permanent Marker', cursive;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,13 +17,49 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-a,
-a:visited {
-  color: #00d8ff
+.all-days {
+  text-align: center;
+  color: black;
 }
 
-nav > ul {
-  margin: 0;
-  padding: 16px 32px;
+a,
+a:visited {
+  color: #000000;
+  font-size: larger;
+}
+
+.daylist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  width: auto;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  padding-top: 50px;
+}
+
+.dropdown-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 

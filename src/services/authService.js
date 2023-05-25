@@ -1,5 +1,5 @@
-// services
 import * as tokenService from './tokenService'
+
 import { addPhoto as addProfilePhoto } from './profileService'
 
 const BASE_URL = `${import.meta.env.VITE_BACK_END_SERVER_URL}/api/auth`
@@ -52,27 +52,11 @@ async function login(loginFormData) {
   }
 }
 
-async function changePassword(changePasswordFormData) {
-  try {
-    const res = await fetch(`${BASE_URL}/change-password`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${tokenService.getToken()}`,
-      },
-      body: JSON.stringify(changePasswordFormData),
-    })
-    const json = await res.json()
 
-    if (json.err) throw new Error(json.err)
 
-    if (json.token) {
-      tokenService.removeToken()
-      tokenService.setToken(json.token)
-    }
-  } catch (err) {
-    throw new Error(err)
-  }
+export {
+  signup,
+  getUser,
+  logout,
+  login,
 }
-
-export { signup, getUser, logout, login, changePassword }

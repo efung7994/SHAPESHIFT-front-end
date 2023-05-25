@@ -1,0 +1,49 @@
+nav > ul {
+  margin: 0;
+  padding: 16px 32px;
+}
+
+.userInfo{
+  position: relative;
+  left: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: relative;
+}
+
+#green {
+  background-color: #4F8C4F;
+}
+
+#lightGreen {
+  background-color: #9DD089;
+}
+
+#yellow {
+  background-color: #FBF17D;
+}
+
+#orange {
+  background-color: #F89C49;
+}
+
+#red {
+  background-color: #F15F61;
+}
+
+.navRight {
+  display: flex;
+  position: absolute;
+  right: 15px;
+}
+
+.navRight p {
+  margin: 0 1rem;
+}

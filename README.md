@@ -1,74 +1,86 @@
-# Decoupled MERN Stack with JWT Auth Template - Front End
 
-This is the front end of a decoupled MERN Stack app that includes JWT Authentication.
+  
 
-When combined with the back end found [here](https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-back-end), you'll have all you need to build a full stack MERN app!
+# SHAPESHIFT
 
-Use this to go build things! 🚀
+![](src/assets/imgs/landingpage.png)
+![](src/assets/imgs/indexpage.png)
 
-## To Use This Template
+# Getting Started
 
-**Replace `<name-of-your-app-here>` (including the `<` and `>`) in the commands below with the name of your app!**
+  
 
-```bash
-git clone https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-front-end <name-of-your-app-here>-front-end
-cd <name-of-your-app-here>-front-end
-code .
-```
+Click [here](https://shapeshift-peds.netlify.app/) to go to the app!
 
-With the project open in VS Code, open a terminal and run:
+Click [here](https://trello.com/b/FlVCz559/shapeshift) to check out the Trello!
 
-```bash
-rm -rf .git
-```
+Click [here](https://github.com/PeterLucido/SHAPESHIFT-back-end) to check out the backend repo!
 
-Here's what your command line output should like after this step (note that the indicator that we are in a git repository is gone!)
+# Contributors
 
-<img src="https://i.imgur.com/L47kNOZ.png" alt="The command line before and after running the rm -rf .git command. Before git:(main) is visible indiating that the directory contains a git repository, after the command it is not.">
+[Peter Lucido](https://github.com/PeterLucido)
 
-Re-initialize a git repository:
+[Eugene Fung](https://github.com/efung7994)
 
-```bash
-git init
-```
+[Dawson Myers](https://github.com/dawson120)
 
-Create a repo for this project on GitHub and add that remote to your project with:
+[Stephen Im](https://github.com/stevim)
 
-```bash
-git remote add origin your-repo-URL-here
-```
 
-Run `npm i` to fetch the template's dependencies:
+# Background
+ShapeShift is a user-friendly app designed to simplify the management of your overall well-being by tracking sleep, food intake, and exercise. With its easy-to-use interface and advanced technology, ShapeShift provides you with personalized data on your health and wellness. Discover a healthier, more balanced lifestyle by monitoring your progress with ShapeShift as your ultimate health companion.
 
-```bash
-npm i
-```
+  
 
-touch a `.env` file:
+# Technologies Used
 
-```bash
-touch .env
-```
+  
 
-Fill it with the following:
+- Node.js
 
-```
-VITE_BACK_END_SERVER_URL=http://localhost:3001
-```
+- Express
 
-> 🚨 DO NOT place secrets in this `.env` file. The contents of this file WILL be exposed to site visitors. We are only using the front-end .env to create variables specific to the environment the application is running in.
+- MongoDB
 
-Delete this README.md, then make an initial commit:
+- Mongoose
 
-```bash
-git add .
-git commit -m "initial commit"
-git push origin main
-```
+- Javascript
 
-Finally, start up the app with:
-```bash
-npm run dev
-```
+- React
 
-You're done!
+- CSS
+
+- Git
+
+- Fly.io
+
+- Netlify
+
+- Cloudinary
+- Postman
+- JWT Auth
+
+  
+
+# Attributions
+
+[Landing Page Stock Photos](https://www.pexels.com/)
+
+[Other Stock Photos](https://elements.envato.com/)
+
+[Inspirational Quotes API](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373)
+
+  
+
+# Next Steps
+
+- [x] Show a different motivational quote every time a user navigates to or refreshes the page
+- [x] Render a user's profile photo in the navigation bar
+
+- [ ] See an empty card for any missed days 
+
+- [ ] Functionality to search for foods in a search bar instead of having a user input their meals
+
+- [ ] Mobile-friendly view
+
+- [ ] Add function to track calories automatically when food is input into the meals category
